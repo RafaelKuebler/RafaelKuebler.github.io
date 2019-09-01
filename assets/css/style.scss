@@ -3,15 +3,20 @@
 
 @import "plain";
 
-main .about h2 {
-  font-weight: bold;
-}
-
-main .about img {
-    border-radius: 50%;
+img[alt=page-image-square] {
+  display:block;
+  margin:10px auto 10px auto;
+  width: 200px;
 }
 
 .about {
+  h2 {
+    font-weight: bold;
+  }
+
+  img {
+      border-radius: 50%;
+  }
   .menu {
     padding:0px;
     list-style: none;
