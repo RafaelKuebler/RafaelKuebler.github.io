@@ -9,6 +9,21 @@ img[alt=page-image-square] {
   width: 200px;
 }
 
+img[src*='#center'] { 
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  td {
+    padding: 15px;
+  }
+}
+
 main .about h2 {
   font-weight: bold;
 }
@@ -16,6 +31,7 @@ main .about h2 {
 .about {
   img {
       border-radius: 50%;
+      margin-top: 40px;
   }
   .menu {
     padding:0px;
